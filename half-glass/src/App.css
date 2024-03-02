@@ -1,0 +1,8 @@
+:root{
+    --orange:#ffa500
+
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}

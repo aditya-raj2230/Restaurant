@@ -1,0 +1,84 @@
+body{
+    background-image: url(../images/annie-spratt-PM4Vu1B0gxk-unsplash.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 60rem;
+}
+.intro{
+    height: 45rem;
+    display: flex;
+    
+    flex-direction: column;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+.headerone{
+font-size: 3rem;
+
+background-image: url(
+    "../images/pink.jpg");
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue', 
+                            helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+            text-shadow: 10rem;
+}
+.headertwo{
+    font-size :8rem;
+        background-image: url(
+"../images/collage.jpg");
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Steelfish Rg', 'helvetica neue', 
+                        helvetica, arial, sans-serif;
+        font-weight: 800;
+        -webkit-font-smoothing: antialiased;
+        text-shadow: 10rem;
+    
+}
+.headerthree{
+    font-size: 1rem;
+    color: rgb(97, 95, 95);
+}
+.about{
+    height: 25rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.headab{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.abitem{
+    
+    margin: 2rem;
+}
+.bio:hover{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.bio{
+    font-size: 1.1rem;
+}
