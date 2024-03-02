@@ -1,0 +1,29 @@
+.menumain{
+    background-color: rgb(248, 218, 223);
+    background-size: 100%;
+    
+}
+.fooditems{
+    display: flex;
+    flex-direction: column;
+
+}
+.food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.foodimg{
+    height: 25rem;
+    
+}
+.itemname{
+    font-family:monospace;
+    font-size: 5rem;
+    color: rgb(92, 87, 87);
+
+}
+h5{
+    font-size: 1.5rem;
+}

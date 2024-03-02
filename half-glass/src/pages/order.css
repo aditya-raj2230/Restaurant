@@ -1,0 +1,26 @@
+.ordermain{
+    background-image: url(../images/bgmordermain.jpeg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainphoto{
+    width: 60rem;
+}
+h2{
+    font-family: monospace;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.timing{
+    align-items: center;
+    margin: 3rem;
+}
+h3{
+    margin: 2rem;
+}

@@ -13,9 +13,9 @@ const Nav = ()=> {
         <div className="navRight">
           <Link to='/home' className="home navitem">Home</Link>
           <Link to='/menu' className="menu navitem">Menu</Link>
-          <Link to='/contact' className="contact navitem">Contact</Link>
+          
           <Link to='/reservation' className="reservation navitem">Reservation</Link>
-          <Link to='/order' className="order navitem">Order</Link>
+          <Link to='/contact' className="order navitem">Contact</Link>
         </div>
 
 

@@ -1,7 +1,7 @@
 
 import './App.css';
 import {BrowserRouter, Link,Route, Routes} from "react-router-dom"
-import Contact from './pages/contact';
+
 import Menu from './pages/menu';
 import Order from './pages/order';
 import Home from './pages/home';
@@ -15,8 +15,8 @@ function App() {
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
-        <Route path ="/contact" element={<Contact/>}/>
-        <Route path ="/order" element={<Order/>}/>
+        
+        <Route path ="/contact" element={<Order/>}/>
         <Route path ="/menu" element={<Menu/>}/>
         <Route path ="/reservation" element={<Reservation/>}/>
         <Route path ="*" element={<Nopage/>}/>

@@ -1,0 +1,32 @@
+.reservationmain{
+    background-image: url(../images/reservationbg.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    height: 55rem;
+}
+.revform{
+    height: 36rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ 
+
+.formitem{
+    width: 20rem;
+    height: 3rem;
+    margin-top:0;
+    margin-bottom: 2rem;
+    font-size: larger;
+  
+}
